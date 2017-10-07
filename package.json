@@ -2,7 +2,7 @@
   "name": "atm",
   "version": "1.0.0",
   "description": "Command-Line Mock up of an ATM",
-  "main": "atm.js",
+  "main": "atm-starter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
