@@ -48,12 +48,12 @@ function authenticateUser() {
 
   // Before we continue, make sure we have a current user
   if (!currentUser) {
-    return handleError(
+    handleError(
       "Unable to find user in collection with card number: " + cardNumber
     );
+  } else {
+    return currentUser;
   }
-
-  return currentUser;
 }
 
 function withholdCard() {
